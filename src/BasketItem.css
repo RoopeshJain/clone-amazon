@@ -1,0 +1,32 @@
+.basketItem {
+  display: flex;
+  margin: 10px;
+}
+
+.basketItem__image {
+  height: 180px;
+  width: 180px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.basketItem__info {
+  display: flex;
+  padding-left: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.basketItem__price {
+  margin-top: 20px;
+}
+
+.basketItem__button {
+  background-color: #f0c14b;
+  border: 1px solid;
+  padding: 2px;
+  margin-top: 20px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+}

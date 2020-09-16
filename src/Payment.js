@@ -7,7 +7,6 @@ import StripeCheckout from "react-stripe-checkout";
 
 function Payment() {
   const [{ basket, user }] = useStateValue();
-
   const makePayment = (token) => {
     const { email, id } = user;
 
